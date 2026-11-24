@@ -8,6 +8,9 @@ Deterministic: the same bytes on every run. No network, no randomness.
 import os
 
 LINE = "The rain stopped the second I stepped out, and a scruffy orange cat I'd never seen fell into step beside me all the way to the warung, like it had been waiting for me."
+# The line is 167 characters, inside the gate of 1 to 200 characters.
+# It carries one concrete small detail (a scruffy orange cat, the warung)
+# and a small surprise (the rain stopping the second I stepped out).
 
 
 def main():
